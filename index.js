@@ -44,3 +44,5 @@ app.get('/api/gas', (req, res) => {
 app.listen('8888', () => {
     console.log('start')
 })
+
+module.exports = app;
